@@ -1,0 +1,30 @@
+$body-color: #D3E4E7;
+$header-color: #3386FF;
+
+body {
+  background-color: $body-color !important;
+}
+ #page-header {
+  color: $header-color !important;
+  font-family: Lobster,sans-serif !important;
+}
+
+table {
+  border: 2px solid #666E66 !important;
+  background-color: #C1D1C1;
+  th, td {
+    border: 2px solid #666E66 !important;
+    background-color: #C1D1C1;
+  }
+}
+
+.card {
+  background-color: #E0F2CE !important;
+}
+
+@media (max-width:499px) {
+  .card {
+    background-color: #DF986F !important;
+    margin: 5px;
+  }
+}
